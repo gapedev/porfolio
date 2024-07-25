@@ -1,0 +1,66 @@
+@use '../abstracts/index' as *;
+
+.jobitem {
+  align-items: baseline;
+  padding-top: 50px;
+  padding-left: 20px;
+  padding-right: 20px;
+  position: relative;
+
+  @include desktop {
+    display: grid;
+    grid-template-columns: .5fr 1fr;
+  }
+
+  &::before {
+    content: '';
+    border-left: 1px solid #ffffff26;
+    border-width: 2px;
+    position: absolute;
+    left: -35px;
+    height: 100%;
+  }
+
+  &_title {
+    position: relative;
+
+    span {
+      position: absolute;
+      left: -22px;
+      top: 18px;
+      font-size: 12px;
+
+      @include desktop {
+        left: -42px;
+        top: 18px;
+      }
+    }
+
+    h3 {
+      color: $primary;
+      font-weight: 700;
+      font-size: 1.25rem;
+      line-height: 1.75rem;
+    }
+
+    h4 {
+      font-weight: 600;
+      font-size: 1.25rem;
+      line-height: 1.75rem;
+    }
+
+    time {
+      color: #fffc;
+      font-size: .875rem;
+      line-height: 1.75rem;
+    }
+  }
+
+  &_info {
+    max-width: 30rem;
+
+    p {
+      color: $tertiary;
+    }
+  }
+}

@@ -1,0 +1,28 @@
+---
+import Linkedin from "public/icons/linkedin.astro";
+import Mail from "public/icons/mail.astro";
+import Button from "./Button.astro";
+---
+
+<div class="hero">
+  <div class="hero_image">
+    <img src="/me.webp" alt="" />
+    <!-- Componente Botón Especial -->
+    <button>Disponible para trabajar</button>
+  </div>
+  <div class="hero_info">
+    <h1>Hey, soy Gabi</h1>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Est reiciendis
+      repudiandae accusantium <span>totam laborum unde laboriosam atque</span>
+      doloremque error omnis?
+    </p>
+  </div>
+  <div class="hero_buttons">
+    <Button href="mailto:gapedev@gmail.com"> <Mail />Contáctame</Button>
+    <Button
+      href="https://www.linkedin.com/in/gabriel-p%C3%A9rez-licer%C3%A1n-b0826a14b/"
+      ><Linkedin />Linkedin</Button
+    >
+  </div>
+</div>

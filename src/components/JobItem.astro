@@ -1,0 +1,19 @@
+---
+const { name, position, url, startDate, endDate, summary } = Astro.props;
+---
+
+<div class="jobitem">
+  <div class="jobitem_title">
+    <span>🟡</span>
+    <h3>{position}</h3>
+    <h4>{name}</h4>
+    <time>{startDate} - {endDate}</time>
+  </div>
+  <div class="jobitem_info">
+    <article>
+      <p>
+        {summary}
+      </p>
+    </article>
+  </div>
+</div>

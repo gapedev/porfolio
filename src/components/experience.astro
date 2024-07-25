@@ -1,0 +1,22 @@
+---
+import data from "@/cv.json";
+import JobItem from "./JobItem.astro";
+
+const work = data.work;
+---
+
+<ul>
+  {
+    work.map((job) => (
+      <JobItem
+        key={job.name}
+        position={job.position}
+        name={job.name}
+        url={job.url}
+        startDate={job.startDate}
+        endDate={job.endDate}
+        summary={job.summary}
+      />
+    ))
+  }
+</ul>

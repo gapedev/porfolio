@@ -1,0 +1,115 @@
+{
+  "basics": {
+    "name": "Gabriel Pérez",
+    "label": "Front-End Developer",
+    "image": "",
+    "email": "gapedev@gmail.com",
+    "phone": "601068778",
+    "url": "https://gapedev.netlify.app/",
+    "summary": "Front-End developer, con más de 5 años de experiencia. Creando aplicaciones web responsive, y apasionado de la teconlogía.",
+    "location": {
+      "address": "Camí Son Cladera 14, 4º A",
+      "postalCode": "07009",
+      "city": "Palma de Mallorca",
+      "countryCode": "ES",
+      "region": "Baleares"
+    },
+    "profiles": [
+      {
+        "network": "Github",
+        "username": "gapedev ",
+        "url": "https://github.com/gapedev"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "Barceló",
+      "position": "Product Owner",
+      "url": "https://www.barcelo.com/es-es/",
+      "startDate": "2024",
+      "endDate": "Actualmente",
+      "summary": "Análisis funcional/técnico de las mejoras de negocio, garantizando la estabilidad y escalabilidad del sistema. Coordinar y gestionar equipos de desarrollo diseño y maquetación tanto internos como externos, asegurando la calidad en las entregas. Comunicar de manera efectiva las prioridades y decisiones del producto digital."
+    },
+    {
+      "name": "Logixs",
+      "position": "Desarrollador Front-End",
+      "url": "https://logixsdigital.com/",
+      "startDate": "2023",
+      "endDate": "2024",
+      "summary": "Desarrollo de aplicaciones web, adaptándome a distintos frameworks, y espacios de trabajo, como React, Drupal, Wordpress.También, revisión de su adaptabilidad en todos los dispositivos y rendimiento de la web. Control de versiones con Git, y Jira para la gestión de las tareas diarias."
+    },
+    {
+      "name": "Avoris",
+      "position": "Desarrollador Front-End",
+      "url": "https://www.avoristravel.com/",
+      "startDate": "2022",
+      "endDate": "2023",
+      "summary": "Desarrollo responsive de las marcas de la empresa. Para ello, se utiliza HTML5, CSS3, SASS. Flexbox y Grid  System. Para el desarrollo de webs adaptadas a todos los dispositivos. Control de versiones (Git), Jira (Bitcucket)."
+    },
+    {
+      "name": "W2M",
+      "position": "Desarrollador Front-End",
+      "url": "https://www.w2m.travel/",
+      "startDate": "2021",
+      "endDate": "2022",
+      "summary": "Maquetación web responsive de las diferentes marcas de la empresa. Para ello, se utiliza HTML5, CSS3, SASS, Javascript y el framework Bulma. Para el desarrollo de webs adaptadas a todos los dispositivos. También utilización de control de versiones (Git), y el ecosistema de Azure Devops."
+    },
+    {
+      "name": "Hotetec",
+      "position": "Desarrollador Front-End",
+      "url": "https://www.hotetec.com/",
+      "startDate": "2019",
+      "endDate": "2021",
+      "summary": "Maquetación web para el sector hotelero. Utilizando HTML5, CSS3, Javascript y el framework Bootstrapp, desarrollando así portales web totalmente responsive, creando una mejor experiencia para el usuario y una mejor conversión para la web. Responsable del departamente de soporte web. Realización de QA, para la puesta a punto de las webs. Publicación de las mismas una vez pasado QA. Resolución y distribución de tareas bajo la herramienta JIRA, configuración de pasarelas de pago TPV."
+    },
+    {
+      "name": "Grupo Temel",
+      "position": "Desarrollador Front-End",
+      "url": "https://www.linkedin.com/company/temel-estudio/about/",
+      "startDate": "2018",
+      "endDate": "2019",
+      "summary": "Diseño y maquetación de páginas web, usando HTML5, CSS3, Javascript, bootstrap y Wordpress."
+    },
+    {
+      "name": "IMI",
+      "position": "Desarrollador Front-End",
+      "url": "https://imi.palma.es/es/",
+      "startDate": "2018",
+      "endDate": "2019",
+      "summary": "Diseño y publicación de páginas web, utilizando HTML5, CSS3, y Bootstrap adaptándolas al diseño responsive."
+    }
+  ],
+  "education": [
+    {
+      "institution": "PalmaActiva",
+      "url": "https://imi.palma.es/es/",
+      "area": "Certificado de profesionalidad: Creación de páginas web, con HTML5, CSS3 y JavaScript, bajo el framework Bootstrap.",
+      "startDate": "2016",
+      "endDate": "2017"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Front-End Developer",
+      "keywords": [
+        "HTML",
+        "CSS3",
+        "SASS",
+        "JavaScript",
+        "Jira",
+        "API"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "Castellano",
+      "fluency": "Nativo"
+    },
+    {
+      "language": "Catalán",
+      "fluency": "Nativo"
+    }
+  ]
+}

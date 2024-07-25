@@ -1,0 +1,28 @@
+---
+import Section from "@/components/Section.astro";
+import Layout from "@/layouts/Layout.astro";
+import Hero from "@/components/Hero.astro";
+import Subtitulo from "@/components/Subtitulo.astro";
+import Briefcase from "public/icons/briefcase.astro";
+import Experience from "@/components/experience.astro";
+---
+
+<Layout title="Porfolio de Gapedev">
+	<main>
+		<Section id="Hero">
+			<Hero />
+		</Section>
+		<Section id="Experiencia">
+			<Subtitulo subtitle="Experiencia laboral">
+				<Briefcase />
+			</Subtitulo>
+			<Experience />
+		</Section>
+		<Section id="Proyectos">
+			<h1>Proyectos</h1>
+		</Section>
+		<Section id="Sobre Mí">
+			<h1>Sobre Mí</h1>
+		</Section>
+	</main>
+</Layout>

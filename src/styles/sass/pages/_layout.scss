@@ -1,0 +1,12 @@
+@use '../abstracts/index' as *;
+
+.layout-bg {
+  width: 100%;
+  min-height: 100vh;
+  background-color: #020617;
+  background-image: radial-gradient(ellipse 80% 80% at 50% -20%, #7877c64d, #fff0);
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+}

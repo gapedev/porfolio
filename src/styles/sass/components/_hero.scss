@@ -1,0 +1,49 @@
+@use '../abstracts/index' as *;
+
+.hero {
+  max-width: 36rem;
+
+  &_image {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+
+    img {
+      width: 64px;
+      height: 64px;
+      border-radius: 50%;
+    }
+  }
+
+  &_info {
+    padding-top: 20px;
+
+    h1 {
+      font-size: 3rem;
+      font-weight: bold;
+    }
+
+    p {
+      font-size: 1.25rem;
+      padding-top: 20px;
+      color: $tertiary;
+
+      span {
+        color: $secondary;
+        font-weight: bold;
+      }
+    }
+  }
+
+  &_buttons {
+    display: flex;
+    align-items: center;
+    gap: 1.25rem;
+    padding-top: 1.25rem;
+
+    p button {
+      display: flex;
+      align-items: center;
+    }
+  }
+}

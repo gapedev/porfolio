@@ -1,0 +1,18 @@
+@use '../abstracts/index' as *;
+
+.button {
+  background-color: #1f2937;
+  border: 1px solid #4b5563;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  padding: .35rem 1rem;
+  border-radius: 9999px;
+  font-weight: 500;
+  transition: $transition;
+
+  &:hover {
+    transform: scale(.95);
+    transition: $transition;
+  }
+}

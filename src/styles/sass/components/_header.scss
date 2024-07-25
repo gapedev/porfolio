@@ -1,0 +1,39 @@
+@use '../abstracts/index' as *;
+
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 10;
+  transition: $transition;
+
+  &_menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem 0;
+    transition: $transition;
+
+    &--link {
+      font-size: 0.875rem;
+      transition: $transition;
+
+      &:hover {
+        color: $primary;
+        transition: $transition;
+      }
+    }
+  }
+}
+
+.scrolled {
+  background-color: #3a485a;
+  padding: 10px;
+  border-radius: 30px;
+  margin-top: 5px;
+  transition: $transition;
+}

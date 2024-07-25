@@ -1,0 +1,61 @@
+---
+const navItems = [
+  {
+    title: "Experiencia",
+    label: "experiencia",
+    url: "#experiencia",
+  },
+  {
+    title: "Proyectos",
+    label: "proyectos",
+    url: "#proyectos",
+  },
+  {
+    title: "Sobre mí",
+    label: "sobre-mi",
+    url: "#sobre-mi",
+  },
+  {
+    title: "Contacto",
+    label: "contacto",
+    url: "mailto:gapedev@gmail.com",
+  },
+];
+---
+
+<header class="header">
+  <nav id="navbar" class="header_menu">
+    {
+      navItems.map(({ url, label, title }) => (
+        <a class="header_menu--link" href={url} aria-label={label}>
+          {title}
+        </a>
+      ))
+    }
+  </nav>
+</header>
+
+<script>
+  // Esperar a que el DOM esté completamente cargado
+  document.addEventListener("DOMContentLoaded", () => {
+    const navbar = document.getElementById("navbar");
+
+    // Función para añadir o remover la clase 'scrolled'
+    const handleScroll = () => {
+      if (window.scrollY > 10) {
+        // Ajusta el valor 50 según tus necesidades
+        navbar.classList.add("scrolled");
+      } else {
+        navbar.classList.remove("scrolled");
+      }
+    };
+
+    // Añadir el evento de scroll
+    window.addEventListener("scroll", handleScroll);
+
+    // Limpiar el evento de scroll al desmontar el componente (si es necesario)
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  });
+</script>

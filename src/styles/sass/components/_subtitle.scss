@@ -1,0 +1,12 @@
+@use '../abstracts/index' as *;
+
+.subtitle {
+  display: flex;
+  align-items: center;
+  gap: .625rem;
+
+  h2 {
+    font-size: 1.875rem;
+    font-weight: bold;
+  }
+}
