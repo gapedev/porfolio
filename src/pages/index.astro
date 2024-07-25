@@ -4,7 +4,9 @@ import Layout from "@/layouts/Layout.astro";
 import Hero from "@/components/Hero.astro";
 import Subtitulo from "@/components/Subtitulo.astro";
 import Briefcase from "public/icons/briefcase.astro";
+import Code from "public/icons/code.astro";
 import Experience from "@/components/experience.astro";
+import User from "public/icons/user.astro";
 ---
 
 <Layout title="Porfolio de Gapedev">
@@ -12,17 +14,24 @@ import Experience from "@/components/experience.astro";
 		<Section id="Hero">
 			<Hero />
 		</Section>
+
 		<Section id="Experiencia">
 			<Subtitulo subtitle="Experiencia laboral">
 				<Briefcase />
 			</Subtitulo>
 			<Experience />
 		</Section>
+
 		<Section id="Proyectos">
-			<h1>Proyectos</h1>
+			<Subtitulo subtitle="Proyectos">
+				<Code />
+			</Subtitulo>
 		</Section>
+
 		<Section id="Sobre Mí">
-			<h1>Sobre Mí</h1>
+			<Subtitulo subtitle="Sobre Mí">
+				<User />
+			</Subtitulo>
 		</Section>
 	</main>
 </Layout>

@@ -17,8 +17,12 @@
     border-left: 1px solid #ffffff26;
     border-width: 2px;
     position: absolute;
-    left: -35px;
+    left: -10px;
     height: 100%;
+
+    @include tablet {
+      left: -35px;
+    }
   }
 
   &_title {

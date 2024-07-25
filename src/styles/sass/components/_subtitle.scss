@@ -3,7 +3,12 @@
 .subtitle {
   display: flex;
   align-items: center;
+  justify-content: center;
   gap: .625rem;
+
+  @include tablet {
+    justify-content: inherit;
+  }
 
   h2 {
     font-size: 1.875rem;
